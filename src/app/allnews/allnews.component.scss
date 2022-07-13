@@ -1,0 +1,45 @@
+.layer{
+    margin-top: 4%;
+}
+
+
+.desc{
+    border-bottom: solid 1px gray;
+}
+.txt i{
+    font-size: 30px;
+    margin-bottom: 13px;
+    color: #20c997;
+
+}
+.txt{
+    display: flex;
+    align-items: center;
+}
+.lead{
+    margin-top: 8px;
+}
+.lead a{
+    text-decoration: none;
+    color: #20c997;
+}
+.lead i{
+    color: #20c997;
+    margin-left: 15px;
+    margin-bottom: 14px;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.lead:hover i{
+    padding-left: 15px;
+}
+.titl h3:hover{
+    color: #20c997;
+}
+.titl h3{
+    transition: 1s;
+}
+
+
+

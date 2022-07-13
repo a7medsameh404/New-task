@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+
+
+<div class="container layer">
+    <div class="row">
+        <div *ngFor="let new of lastNews" class="col-md-4 titl">
+           <div class="h-100 d-flex flex-column justify-content-between">
+        <img [src]="new.urlToImage" alt="" class="w-100">
+        <h3>MATERIALS</h3>
+        <div class=" txt ">
+            <i class="fa-solid fa-bookmark me-3 "></i>
+            <h1>{{new.title}}</h1>
+        </div>
+        <div class="desc">
+            <p>{{new.description}}</p>
+        </div>
+        <div class="lead d-flex align-items-center">
+            <h1>
+                <a href="">READ POST</a>
+            </h1>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&family=Montserrat&display=swap');
+$bgColor:#131722;
+$lightBgColor:#24baef;
+$bgTransparent:rgba(36,186,239,0.6);
+$fontColor:white;
+$borderColor:#a8a8a83d;
+$secondFontColor:#949cb0;
+
+
+body
+{
+    background-color: $bgColor;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: $fontColor;
+}
